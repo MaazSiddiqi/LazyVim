@@ -16,6 +16,12 @@ local defaults = {
     keymaps = true, -- lazyvim.config.keymaps
     options = true, -- lazyvim.config.options
   },
+  plugins = {
+    lsp = true,
+    coding = true,
+    editor = true,
+    ui = true,
+  },
   -- icons used by other plugins
   icons = {
     diagnostics = {
